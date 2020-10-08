@@ -17,13 +17,13 @@ function getArticles() {
   var queryURL =
     "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" +
     search +
-    "&facet_fields=source&facet=true";
+    "&facet_fields=pub_year&facet=true";
   var beginDate = "02/01/2020";
   var endDate = "09/01/2020";
-  var beginArray = beginDate.split("/");
-  beginDate = beginArray[2] + beginArray[0] + beginArray[1];
-  var endArray = endDate.split("/");
-  endDate = endDate[2] + endDate[0] + endDate[1];
+  // var beginArray = beginDate.split("/");
+  // beginDate = beginArray[2] + beginArray[0] + beginArray[1];
+  // var endArray = endDate.split("/");
+  // endDate = endDate[2] + endDate[0] + endDate[1];
   var size = $("#inputGroupSelect02").val(); //change this
   if (beginDate !== "") {
     queryURL = queryURL + "&begin_date=" + beginDate + APIKey;
