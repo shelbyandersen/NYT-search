@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.jumbotron {
+  width: 95%;
+  margin: auto;
+}
+
+.jumbotron-fluid {
+  background: #21325a;
+}
+
+.form-heading {
+  font-weight: 800;
+  background: lightgrey;
+  width: 100%;
+}
+
+.main-container {
+  border: 1px solid lightgrey;
+  margin-top: 20px;
+  padding: 2%;
+}
+
+#main-header {
+  text-align: center;
+}
